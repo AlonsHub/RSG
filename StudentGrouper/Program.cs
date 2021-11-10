@@ -27,8 +27,11 @@ namespace StudentGrouper
 			//ReadEntries($"{sheet}!A2:A26");
 			//UpdateEntries($"{sheet}!A1:B1");
 			//DeleteEntries($"{sheet}!A1:B1");
-			string[] devs = GetEntries($"{sheet}!A2:B26"); //dont hard code the end for the current total, get too much and just stop at the first blank entry
-			string[] arts = GetEntries($"{sheet}!C2:D17");
+			List<string> devs = GetEntries($"{sheet}!A2:B26").ToList(); //dont hard code the end for the current total, get too much and just stop at the first blank entry
+			List<string> arts = GetEntries($"{sheet}!C2:D17").ToList();
+
+			devs.RemoveAll(x => x == null);
+			arts.RemoveAll(x => x == null);
 			//PrintGroup(devs);
 			//PrintGroup(arts);
 
@@ -37,9 +40,11 @@ namespace StudentGrouper
             Sorter sorter = new Sorter();
 
             sorter.SetAllStudents(devs, arts);
-            //check if should load saved file with records or start new grouping log
 
+			sorter.FigureOutPairs();
+			//check if should load saved file with records or start new grouping log
 
+			Console.ReadKey();
 
         }
 		static void PrintGroup(string[] group)
@@ -216,10 +221,10 @@ namespace StudentGrouper
    //         }
 
 		}
-		public void SetAllStudents(string[] dev, string[] art)
+		public void SetAllStudents(List<string> dev, List<string> art)
         {
-			devStudents = dev.ToList();
-			artStudents = art.ToList();
+			devStudents = dev;
+			artStudents = art;
 		}
 		public void PrintSingleConfiguration() //repeating groups not avoided yet!
         {
@@ -241,7 +246,28 @@ namespace StudentGrouper
         }
 		public void FigureOutPairs()
         {
+			int devTotal = devStudents.Count;
+			int artCount = 0;
+			Random rand = new Random();
 
+            for (int i = 0; i < devTotal; i++)
+            {
+				Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(artStudents[artCount]);
+
+				int r = rand.Next(0, devStudents.Count);
+				Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine(devStudents[r]);
+				devStudents.RemoveAt(r);
+
+			    artCount++;
+
+				if (artCount >= artStudents.Count)
+				{
+					artCount = 0;
+                    Console.WriteLine();
+				}
+            }
         }
 	}
 }

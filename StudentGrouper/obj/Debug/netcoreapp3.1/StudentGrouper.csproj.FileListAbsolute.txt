@@ -19,3 +19,24 @@ C:\Users\alons\source\repos\StudentGrouper\StudentGrouper\bin\Debug\netcoreapp3.
 C:\Users\alons\source\repos\StudentGrouper\StudentGrouper\bin\Debug\netcoreapp3.1\Google.Apis.Sheets.v4.dll
 C:\Users\alons\source\repos\StudentGrouper\StudentGrouper\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\alons\source\repos\StudentGrouper\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.csproj.CopyComplete
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\StudentGrouper.exe
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\client_secrets.json
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\StudentGrouper.deps.json
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\StudentGrouper.runtimeconfig.json
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\StudentGrouper.runtimeconfig.dev.json
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\StudentGrouper.dll
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\StudentGrouper.pdb
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\Google.Apis.Sheets.v4.dll
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.csprojAssemblyReference.cache
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.AssemblyInfoInputs.cache
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.AssemblyInfo.cs
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.csproj.CoreCompileInputs.cache
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.csproj.CopyComplete
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.dll
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.pdb
+C:\GIT\Dev Ops and Tools\RSG\RSG\StudentGrouper\obj\Debug\netcoreapp3.1\StudentGrouper.genruntimeconfig.cache

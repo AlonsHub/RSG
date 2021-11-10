@@ -208,11 +208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alons\\source\\repos\\StudentGrouper\\StudentGrouper\\StudentGrouper.csproj",
+      "projectUniqueName": "C:\\GIT\\Dev Ops and Tools\\RSG\\RSG\\StudentGrouper\\StudentGrouper.csproj",
       "projectName": "StudentGrouper",
-      "projectPath": "C:\\Users\\alons\\source\\repos\\StudentGrouper\\StudentGrouper\\StudentGrouper.csproj",
+      "projectPath": "C:\\GIT\\Dev Ops and Tools\\RSG\\RSG\\StudentGrouper\\StudentGrouper.csproj",
       "packagesPath": "C:\\Users\\alons\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alons\\source\\repos\\StudentGrouper\\StudentGrouper\\obj\\",
+      "outputPath": "C:\\GIT\\Dev Ops and Tools\\RSG\\RSG\\StudentGrouper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
